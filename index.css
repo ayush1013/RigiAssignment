@@ -102,6 +102,28 @@ html {
   left: 30px;
 }
 
+/* Featured */
+
+#featured {
+  background-color: #ebeffd;
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+#featured > h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#featured > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #335FF4;
+}
+#featured > h1>span{
+    margin: 30px;
+    font-weight: bolder
+    ;
+}
+
 @media all and (min-width: 720px) and (max-width: 1080px) {
   #navbar {
     padding: 0px 80px 0px 80px;
