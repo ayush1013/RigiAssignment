@@ -132,7 +132,7 @@ html {
 #about>h4{
     font-weight: 500;
 }
-#about>div{
+#profileImg{
     padding: 15px;
     background-color: white;
     border-radius: 50%;
@@ -142,7 +142,7 @@ html {
     margin: auto;
     margin-bottom: 20px;
 }
-#about>div>img{
+#profileImg>img{
     border: 4px solid #CED6FF;
     border-radius: 50%;
     width: 100%;
@@ -156,6 +156,28 @@ html {
     text-align: center;
     margin: auto;
     margin-top: 20px;
+}
+#socialLogo{
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    margin: auto;
+}
+#socialLogo>div{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* padding: 2px; */
+    background-color: #335FF4;
+}
+/* #socialLogo>div>img:first-child{
+    width: 30px; */
+/* } */
+#socialLogo>div>img:nth-child(5){
+    width: 20px;
+}
+#socialLogo>div>img{
+    width: 40px;
 }
 
 
