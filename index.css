@@ -320,6 +320,116 @@ html {
   margin-top: 20px;
 }
 
+#consultation{
+  width: 72%;
+  background-color: #ebeffd;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+#consultation>div{
+  width: 32%;
+  padding: 8px;
+  background-color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+#consultation>div>h4{
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+#consultation>div p{
+  font-size: 14px;
+}
+#consultation>div>div{
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  color: #747474;
+}
+#consultation>div>div>div{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+
+.conImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #EBEFFD;
+  border-radius: 50%;
+  width: fit-content;
+
+}
+.conImg>img{
+  width: 30px;
+}
+
+
+#consultation>div>button{
+  width: 100%;
+  height: 35px;
+  background-color: #3964f4 !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+}
+#testimonials{
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebeffd;
+  text-align: center;
+  padding-top: 50px;
+  border: 1px solid black;
+}
+#testimonials>h4{
+  margin-top: 0px;
+  font-weight: 500;
+}
+#testParent{
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+#testParent>div{
+  width: 32%;
+  padding: 8px;
+  background-color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+#testParent>div>img{
+  width: 60px;
+  margin-top: 20px;
+}
+#testParent>div>h4{
+  font-weight: 500;
+  margin: 0px;
+}
+#testParent>div>p{
+  margin: 0px;
+}
 
 @media all and (min-width: 720px) and (max-width: 1080px) {
   #navbar {
@@ -374,6 +484,26 @@ html {
   #commLeft>div>img{
     width: 25px;
   }
+
+  #Courses{
+    width: 90%;
+  }
+  #consultation{
+    width: 90%;
+  }
+  #consultation>div h1{
+    font-size:18px;
+  }
+  #consultation>div>div p{
+    font-size: 12px;
+  }
+  #consultation>div>div>div>img{
+    width: 20px; 
+  }
+  #testParent{
+    width: 90%;
+  }
+
 }
 
 @media all and (min-width: 300px) and (max-width: 720px) {
@@ -487,6 +617,23 @@ html {
     background-color: white;
     border-radius: 20px;
     font-size: 14px;
+  }
+
+  #Courses{
+    width: 95%;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  #Courses>div{
+    width: 100%;
+  }
+  #consultation{
+    width: 95%;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  #consultation>div{
+    width: 100%;
   }
 
 }
