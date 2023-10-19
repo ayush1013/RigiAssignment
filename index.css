@@ -2,6 +2,8 @@ body,
 html {
   margin: 0;
   padding: 0;
+  background-color: #ebeffd;
+  box-sizing: border-box;
 }
 
 /* Navbar */
@@ -14,11 +16,11 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 0px 200px 0px 200px;
-  box-sizing: border-box;
   color: white !important;
   position: fixed;
   top: 0;
   z-index: 10;
+  box-sizing: border-box
 }
 
 #logo {
@@ -50,6 +52,7 @@ html {
   background-color: #335ff4;
   align-items: center;
   position: relative;
+  /* border: 1px solid red; */
 }
 
 #introL {
@@ -109,10 +112,18 @@ html {
   width: 100%;
   padding: 50px 10px 0px 10px;
   text-align: center;
+  /* border: 1px solid green; */
+  box-sizing: border-box
 }
 #featured > h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
+}
+#featured>p{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
 }
 #featured > h1 {
   font-family: "Times New Roman", Times, serif;
@@ -186,6 +197,8 @@ html {
   width: 100%;
   padding: 50px 10px 0px 10px;
   text-align: center;
+  /* border: 1px solid blue; */
+  box-sizing: border-box
 }
 
 #heading{
@@ -397,7 +410,8 @@ html {
   background-color: #ebeffd;
   text-align: center;
   padding-top: 50px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
 }
 #testimonials>h4{
   margin-top: 0px;
@@ -633,6 +647,15 @@ html {
     row-gap: 20px;
   }
   #consultation>div{
+    width: 100%;
+  }
+
+  #testParent{
+    width: 95%;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  #testParent>div{
     width: 100%;
   }
 
