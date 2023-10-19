@@ -542,12 +542,26 @@ html {
 #footer{
   background-color: #335FF4;
   width: 100%;
+  padding: 10px 10px 20px 10px;
+
 }
 
 #footer>img{
   display: block;
   cursor: pointer;
   margin: auto;
+  margin-top: 50px;
+}
+#footer>div{
+  display: flex;
+  width: fit-content;
+  font-size: 14px;
+  color: #8EB1FB;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 @media all and (min-width: 720px) and (max-width: 1080px) {
@@ -816,5 +830,10 @@ html {
   }
   #contact>div>div{
     width: 100%;
+  }
+  #footer>div{
+    font-size: 12px;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 }
