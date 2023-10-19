@@ -197,7 +197,7 @@ html {
   font-weight: 500;
 }
 
-#stack{
+.stack{
   width: fit-content;
   display: flex;
   margin: auto;
@@ -207,15 +207,25 @@ html {
   font-weight: 500;
   margin-top: 50px;
 }
-#stack>div{
+.stack>div{
   padding: 10px 35px;
   background-color: white;
   border-radius: 20px;
 }
-#stack>div:first-child{
+.stack1>div:first-child{
   background-color: #335FF4;
   color: white;
 }
+
+.stack2>div:nth-child(2){
+  background-color: #335FF4;
+  color: white;
+}
+.stack3>div:nth-child(3){
+  background-color: #335FF4;
+  color: white;
+}
+
 #community{
   width: 100%;
   display: flex;
@@ -268,6 +278,47 @@ html {
   width: 100%;
 }
 
+#Courses{
+  width: 72%;
+  background-color: #ebeffd;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+#Courses>div{
+  width: 32%;
+  padding: 8px;
+  background-color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+#Courses>div>h4{
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+#Courses>div>p{
+  font-size: 14px;
+}
+#Courses>div>img{
+  width: 100%;
+}
+#Courses>div>button{
+  width: 100%;
+  height: 40px;
+  background-color: #3964f4 !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+}
 
 
 @media all and (min-width: 720px) and (max-width: 1080px) {
@@ -311,13 +362,17 @@ html {
   }
 
   #community{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    padding: 10px 180px;
-    align-items: center;
-    position: relative;
+    padding: 10px 80px;
+  }
+  #commLeft>h1{
+    font-size: 24px;
+  }
+
+  #commLeft p{
+    font-size: 14px;
+  }
+  #commLeft>div>img{
+    width: 25px;
   }
 }
 
@@ -405,6 +460,33 @@ html {
     display: block;
     margin: auto;
     box-sizing: border-box;
+  }
+
+  #community{
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
+  #commLeft{
+    width: 100%;
+  }
+  #commImg{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #commLeft>button{
+    display: none;
+  }
+  .stack{
+    flex-wrap: wrap;
+  }
+  .stack>div{
+    padding: 7px 22px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
   }
 
 }
