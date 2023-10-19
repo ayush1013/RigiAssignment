@@ -117,69 +117,69 @@ html {
 #featured > h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
-  color: #335FF4;
+  color: #335ff4;
   margin: 10px;
 }
-#featured > h1>span{
-    margin: 30px;
-    font-weight: bolder;
+#featured > h1 > span {
+  margin: 30px;
+  font-weight: bolder;
 }
 
-#about{
-    width: 100%;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+#about {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#about>h4{
-    font-weight: 500;
+#about > h4 {
+  font-weight: 500;
 }
-#profileImg{
-    padding: 15px;
-    background-color: white;
-    border-radius: 50%;
-    width: 370px;
-    height: 370px;
-    overflow: hidden;
-    margin: auto;
-    margin-bottom: 20px;
+#profileImg {
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+  width: 370px;
+  height: 370px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 20px;
 }
-#profileImg>img{
-    border: 4px solid #CED6FF;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin: auto;
-    box-sizing: border-box;
+#profileImg > img {
+  border: 4px solid #ced6ff;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
 }
-#about>p{
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
+#about > p {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
 }
-#socialLogo{
-    display: flex;
-    width: fit-content;
-    gap: 20px;
-    margin: auto;
+#socialLogo {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+  margin: auto;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
-#socialLogo>div{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    /* padding: 2px; */
-    background-color: #335FF4;
-}
-/* #socialLogo>div>img:first-child{
-    width: 30px; */
-/* } */
-#socialLogo>div>img:nth-child(5){
-    width: 20px;
-}
-#socialLogo>div>img{
-    width: 40px;
+#socialLogo > div {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  /* padding: 2px; */
+  /* background-color: #335FF4; */
 }
 
+#socialLogo img {
+  width: 35px;
+}
 
 @media all and (min-width: 720px) and (max-width: 1080px) {
   #navbar {
